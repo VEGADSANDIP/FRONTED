@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        .one>p{
+            background-color: yellow;
+            display:flex;
+            margin: 20px;
+            padding: 15px;
+        }
+        span{
+            background-color: blue;
+            color: aliceblue;
+            border: solid black;
+            padding: 10px;
+        }
+
+        .two>p{
+            display:inline;
+            margin: 20px;
+            padding: 15px;
+        }
+        .two>div{
+            background-color: blue;
+            color: aliceblue;
+            border: solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+        </p>
+
+        <p>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+        </p>
+    </div>
+
+    <div class="two">
+        <p>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </p>
+    </div>
+</body>
+</html>

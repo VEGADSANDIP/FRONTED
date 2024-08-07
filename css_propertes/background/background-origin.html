@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background origin</title>
+    <style>
+        .one{
+        width: auto;
+        height: 350px;background-color: yellow;            
+        border: 2px dotted black;
+        background-image: url("image\ copy\ 4.png");
+        background-origin: padding-box;
+        }
+        .two{
+        width: auto;
+        height: 350px;background-color: yellow;            
+        border: 2px dotted black;
+        background-image: url("image\ copy\ 4.png");
+        background-origin: border-box;
+        }
+        .three{
+        width: auto;
+        height: 350px;background-color: yellow;            
+        border: 2px dotted black;
+        background-image: url("image\ copy\ 4.png");
+        background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias quis, consectetur laborum deserunt perspiciatis non reprehenderit molestiae itaque debitis numquam, nisi et ratione. Fugit cum molestias a praesentium nihil!</p>
+    </div>
+        <br>    
+    <div class="two">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias quis, consectetur laborum deserunt perspiciatis non reprehenderit molestiae itaque debitis numquam, nisi et ratione. Fugit cum molestias a praesentium nihil!</p>
+    </div>
+        <br>
+    <div class="three">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias quis, consectetur laborum deserunt perspiciatis non reprehenderit molestiae itaque debitis numquam, nisi et ratione. Fugit cum molestias a praesentium nihil!</p>
+    </div>
+
+</body>
+</html>

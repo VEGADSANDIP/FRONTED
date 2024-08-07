@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background clip</title>
+    <style>
+        .one{
+            border: 20px dotted rgb(255, 247, 0);
+            padding: 15px;
+            background-color: brown;
+            background-clip: border-box;
+        }
+        .two{
+            border: 20px dotted rgb(4, 0, 255);
+            padding: 15px;
+            background-color: brown;
+            background-clip: padding-box;
+        }
+        .three{
+            border: 20px dotted rgb(17, 255, 0);
+            padding: 15px;
+            background-color: brown;
+            background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>border box background clip</p>
+    </div><br><br>
+
+    <div class="two">
+        <p>padding box background clip</p>
+    </div><br><br>
+
+    <div class="three">
+        <p>content box background clip</p>
+    </div>
+</body>
+</html>
