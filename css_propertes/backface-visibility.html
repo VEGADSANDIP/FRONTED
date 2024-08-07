@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backface visibility</title>
+    <style>
+        div{
+            background-color: rgb(242, 255, 0);
+            height: 100px;
+            width: 100px;
+            transform: rotateY(150deg);
+        }
+        .sandip{
+            backface-visibility: visible;
+        }
+        .dhaval{
+            backface-visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <table align="center" border="1">
+        <tr align="center" >
+            <td>visibility</td>
+            <td>hidden</td>
+        </tr>
+        <tr>
+            <td><div class="sandip">sandip </div></td>
+            <td><div class="dhaval">dhaval </div></td>
+        </tr>
+    </table>
+</body>
+</html>
