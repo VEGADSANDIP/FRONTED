@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>optional selector</title>
+    <style>
+        #select:optional{
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">enter the name</label><span id="name" style="color: red;">*</span>
+        <input type="text" name="f.name" id="name"><br><br>
+        <label for="date">birth of date</label>
+        <input type="date" id="date"><br><br>
+        <label for="select">how it possible</label>
+        <select name="company name" id="select">
+            <option value="google">google</option>
+            <option value="microsoft">microsoft</option>
+        </select>
+    </form> 
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>required selector</title>
+    <style>
+        #name:required{
+            color: red;
+        }
+        #age:required{
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">name:</label><span style="color: red;">*</span>
+        <input type="text" id="name" placeholder="enter the name" required><br><br>
+        <label for="age">birth of date:</label><span style="color: red;">*</span>
+        <input type="date" id="age" required>
+    </form>
+
+</body>
+</html>

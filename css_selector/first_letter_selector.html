@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first letter selector</title>
+    <style>
+        p::first-letter{
+            color: chartreuse;
+        }
+        .number::first-letter{
+            color: aqua;
+        }
+        .symbol::first-letter{
+            background-color: yellowgreen;
+            color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="number">1 23 456 789.</b><br><br>
+    <p class="symbol">-- ! @#$%^&*()_+</p>
+</body>
+</html>

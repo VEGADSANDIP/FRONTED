@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>dir_selector</title>
+        <style>
+            div:dir(rtl){
+                background-color: blue;
+            }
+            p{
+                background-color: yellow;
+            }
+            p:dir(ltr){
+                background-color: yellowgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div dir="rtl">sandip vegad</div>
+        <p>sandip vegad</p>
+        <p dir="rtl">Lorem ipsum dolor sit amet.</p>
+        <p dir="ltr">Lorem ipsum dolor sit amet.</p>
+        <p dir="auto">Lorem ipsum dolor sit amet.</p>
+    </body>
+</html>

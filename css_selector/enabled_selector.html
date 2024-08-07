@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enabled_selector</title>
+    <style>
+        input[type = text]:enabled{
+            background-color: brown;
+        }
+        input[type = text]:disabled{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">name</label>
+        <input type="text" name="fname" id="name"><br><br>
+        <label for="age">age</label>
+        <input type="date" name="age" id="age"><br><br>
+        <label for="country">enter the country</label>
+        <input type="text" name="country" id="country" disabled="disabled"><br>
+    </form>
+</body>
+</html>

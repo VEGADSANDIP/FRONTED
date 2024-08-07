@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>read and write selector</title>
+    <style>
+        #country:read-only{
+            color: rgb(200, 0, 0);
+            background-color: rgb(223, 248, 199);
+        }
+        #name:read-write{
+            color:rgb(255, 255, 255);
+            background-color: rgb(124, 124, 124);
+        }
+    </style>
+</head>
+<body>
+    <label for="name">name:</label>
+    <input type="text" id="name"><br><br>
+    <label for="country">country:</label>
+    <input type="text" id="country" value="india" readonly>
+
+</body>
+</html>

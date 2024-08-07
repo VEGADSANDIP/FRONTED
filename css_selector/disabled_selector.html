@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>disabled_selector</title>
+    <style>
+        input[type = text]:disabled{
+            background: #f40000;
+            text-align: center;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">name</label>
+        <input type="text" id="name" name="f.name" placeholder="enter the name "><br><br>
+        <label for="age">age</label>
+        <input type="date" id="age" placeholder="enter the age"><br><br>
+        <label >select gender</label>
+        <input type="radio" id="male" name="gender" > 
+        <label for="male">male</label> 
+        <input type="radio" id="female" name="gender">    
+        <label for="female" >female</label> <br><br>
+        <label for="country">country name</label>
+        <input type="text" disabled id="country" name="country name" value="india" placeholder="enter the  country">  
+    </form>
+</body>
+</html>

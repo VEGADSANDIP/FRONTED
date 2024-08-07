@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>only of type selector</title>
+    <style>
+        p:only-of-type{
+            color: white;
+            background-color: black;
+        }
+        li:only-of-type{
+            color: aliceblue;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+            <div>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>  
+        </div>
+        <span>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </span>
+        
+
+        <ul>
+            <li>sandip</li>
+        </ul>
+        <ul>
+            <ul>
+                <li>sandip </li>
+            </ul>
+            
+            <li>dhaval</li>
+            <li>vegad</li>
+        </ul>
+</body>
+</html>
